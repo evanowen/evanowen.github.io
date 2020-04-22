@@ -15,13 +15,6 @@ To set up a GitHub pages follow these directions:
 ## Usage
 Feel free to use any of my stuff. Just don't use it for evil.
 
-## Contributing
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-
 ## History
 I designed, created, and hosting this webpage myself. I wanted my website to be a place where people could go to see my github account, linkedin, and any other contact infomation in a concise, familiar, and easy to read format.
 
