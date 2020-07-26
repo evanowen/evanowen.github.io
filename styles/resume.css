@@ -185,6 +185,7 @@ li
 {
 	list-style-type:circle;
 }
+
 /*
 #accordion h3
 {
@@ -211,8 +212,9 @@ li
 }
 .imgDiv img
 {
-	width:300px;
+    width:250px;
 	border: 0px;
+    border-radius:50% !important;
 }
 
 .imgDiv2
