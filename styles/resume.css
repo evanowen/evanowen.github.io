@@ -12,16 +12,19 @@ a:link, a:visited
 {
 	color:#990000;
 	text-decoration:none;
+    font-weight:bold;
 }
 
 a:hover , .current
 {
 	color:#FF8C00 !important;
+    font-weight:bold;
 }
 
 a:active
 {
 	color:white;
+    font-weight:bold;
 }
 
 .container
@@ -120,6 +123,7 @@ h1
 h2
 {
 	font-size:16pt;
+    font-weight:bold;
 
 }
 .clear
