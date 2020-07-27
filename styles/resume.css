@@ -143,7 +143,9 @@ h2
 .alignl
 {
 	float: left;
-	width:290px;
+	width:350px;
+	margin-left:20px;
+	margin-right:-20px;
 }
 hr
 {
@@ -203,8 +205,10 @@ li
 }
 .imgDiv
 {
-	width:310px;
+	width:250px;
 	float: left;
+	border-right: 0px solid;
+	margin-right: -1px;
 }
 .imgDiv img
 {
@@ -215,8 +219,10 @@ li
 
 .imgDiv2
 {
-	width:310px;
+	width:250px;
 	float: left;
+	border-right: 0px solid;
+	margin-right: -1px;
 }
 .imgDiv2 img
 {
