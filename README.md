@@ -8,7 +8,7 @@ To set up a GitHub pages follow these directions:
 
 1. Set up my user page evanowen.github.io
 2. Commit a file called CNAME with one line: evantroyowen.com
-3. Go to GoDaddy site to manage my URL
+3. Go to DNS registrar website
 4. Add 4 "A (Host)" records with "host" = @ and "Points to" = 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153
 5. Add an "CAA" record with "name" = @ , "flags" = 0 , "tag" = issue , "value" = letsencrypt.org
 6. Add a "CNAME (Alias)" record with "host" = www and "Points to" = evanowen.github.io
