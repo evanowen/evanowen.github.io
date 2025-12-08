@@ -36,8 +36,8 @@ a:active
 	padding: 20px;
 	height: 100%;
 	color: black;
-	box-shadow:5px 5px 5px #545454;
-	-moz-box-shadow:5px 5px 5px #545454;
+	box-shadow: 5px 5px 5px #545454;
+	-moz-box-shadow: 5px 5px 5px #545454;
 	-webkit-box-shadow:5px 5px 5px #545454;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
@@ -115,8 +115,8 @@ h1
 	letter-spacing: 4px;
 	margin-top: 0px;
 	margin-bottom: 20px;
-	line-height:normal;
-	font-weight:300;
+	line-height: normal;
+	font-weight: 300;
 	font-size: clamp(28px, 8vw, 48px);
 }
 
@@ -180,14 +180,13 @@ hr
 
 #nav li a
 {
-	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	padding: 10px 15px;
 	min-height: 44px;
 	min-width: 44px;
 	box-sizing: border-box;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 li
@@ -228,7 +227,7 @@ li
 	max-width:250px;
 	height: auto;
 	border: 0px;
-	border-radius:50% !important;
+	border-radius: 50% !important;
 }
 
 .imgDiv2
@@ -299,12 +298,11 @@ li
 	}
 	
 	footer a {
-		display: inline-block;
-		padding: 10px;
-		min-height: 44px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		padding: 10px;
+		min-height: 44px;
 	}
 }
 
