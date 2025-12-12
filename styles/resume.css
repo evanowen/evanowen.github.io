@@ -140,17 +140,7 @@ h1 {
 	line-height: 1.2;
 	font-weight: 700;
 	font-size: clamp(28px, 8vw, 52px);
-	background: linear-gradient(135deg, var(--secondary-color), var(--primary-color), var(--accent-color));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-clip: text;
-	animation: gradientShift 8s ease infinite;
-	background-size: 200% 200%;
-}
-
-@keyframes gradientShift {
-	0%, 100% { background-position: 0% 50%; }
-	50% { background-position: 100% 50%; }
+	color: #000000;
 }
 
 h2 {
@@ -299,7 +289,6 @@ li
 	max-width: 250px;
 	height: auto;
 	border-radius: 50%;
-	border: 5px solid var(--primary-color);
 	box-shadow: 0 8px 20px var(--shadow-color);
 	transition: all 0.3s ease;
 }
@@ -307,7 +296,6 @@ li
 .imgDiv img:hover {
 	transform: scale(1.05);
 	box-shadow: 0 12px 30px var(--shadow-hover);
-	border-color: var(--accent-color);
 }
 
 .imgDiv2 {
@@ -323,7 +311,6 @@ li
 	max-width: 250px;
 	height: auto;
 	border-radius: 15px;
-	border: 3px solid var(--primary-color);
 	box-shadow: 0 8px 20px var(--shadow-color);
 	transition: all 0.3s ease;
 }
@@ -331,7 +318,6 @@ li
 .imgDiv2 img:hover {
 	transform: translateY(-5px);
 	box-shadow: 0 12px 30px var(--shadow-hover);
-	border-color: var(--accent-color);
 }
 .portEntry {
 	margin-bottom: 40px;
