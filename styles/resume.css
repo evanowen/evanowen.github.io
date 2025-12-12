@@ -138,7 +138,7 @@ h1 {
 	letter-spacing: 6px;
 	margin: 0 0 30px 0;
 	line-height: 1.2;
-	font-weight: 700;
+	font-weight: 300;
 	font-size: clamp(28px, 8vw, 52px);
 	color: #000000;
 }
