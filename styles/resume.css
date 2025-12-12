@@ -226,30 +226,35 @@ hr {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	padding: 12px 28px;
+	padding: 12px 20px;
 	min-height: 44px;
 	font-weight: 600;
 	font-size: 14px;
-	letter-spacing: 1px;
-	background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-	border-radius: 25px;
-	box-shadow: 0 2px 8px var(--shadow-color);
-	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-	border: 2px solid transparent;
+	letter-spacing: 1.5px;
+	position: relative;
+	transition: all 0.3s ease;
 }
 
-#nav li a:hover {
-	background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
-	color: var(--text-light) !important;
-	box-shadow: 0 4px 12px var(--shadow-hover);
-	transform: translateY(-2px);
+#nav li a::after {
+	content: '';
+	position: absolute;
+	bottom: 8px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0;
+	height: 2px;
+	background: var(--primary-color);
+	transition: width 0.3s ease;
 }
 
-#nav li a.current {
-	background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
-	color: var(--text-light) !important;
-	border-color: var(--primary-color);
-	box-shadow: 0 4px 15px var(--shadow-hover);
+#nav li a:hover::after {
+	width: 80%;
+}
+
+#nav li a.current::after {
+	width: 80%;
+	height: 3px;
+	background: var(--primary-color);
 }
 
 li
